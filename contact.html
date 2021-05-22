@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: black;
+            color: white;
+            padding: 20px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: black;
+        }
+
+        .container {
+            border-radius: 20px;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+
+        form {
+            color: white;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="https://www.shecodes.io/workshops/shecodes-online-workshop-29-0/projects/93192"
+                    target="_blank">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.starwars.com/databank/millennium-falcon-biography-gallery" target="_blank">News</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h3>Contact Form</h3>
+
+    <h2>Contact</h2>
+
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Comment:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>
